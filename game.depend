@@ -1,0 +1,116 @@
+# depslib dependency file v1.0
+1744130665 source:e:\demosdl\game\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"defs.h"
+	"graphics.h"
+	"gameplay.h"
+	"game.h"
+	"initiallyhand.h"
+	"hand.h"
+	"zones.h"
+	"menu.h"
+
+1744123499 e:\demosdl\game\defs.h
+
+1744121687 e:\demosdl\game\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"defs.h"
+
+1743653774 source:e:\demosdl\game\mainwindow.cpp
+	"menu.h"
+	<SDL.h>
+	<iostream>
+
+1744114462 e:\demosdl\game\menu.h
+	"graphics.h"
+
+1744131012 source:e:\demosdl\game\menu.cpp
+	"menu.h"
+	"Graphics.h"
+	"Button.h"
+	"defs.h"
+	<SDL_mixer.h>
+
+1744110761 e:\demosdl\game\game.h
+	"graphics.h"
+	"defs.h"
+	"card.h"
+	"deck.h"
+	"zones.h"
+
+1744094873 e:\demosdl\game\card.h
+	<string>
+	<vector>
+	<SDL.h>
+	"graphics.h"
+	"zones.h"
+
+1743865035 e:\demosdl\game\deck.h
+	<algorithm>
+	"Card.h"
+	<vector>
+	<random>
+	<ctime>
+	<chrono>
+
+1744131797 e:\demosdl\game\gameplay.h
+	"graphics.h"
+	"Card.h"
+	"defs.h"
+	"Deck.h"
+	"zones.h"
+	"rendering.h"
+	<vector>
+	<iostream>
+
+1744125903 e:\demosdl\game\initiallyhand.h
+	"gameplay.h"
+	"game.h"
+	"graphics.h"
+	"zones.h"
+
+1744109459 e:\demosdl\game\hand.h
+	<iostream>
+	"game.h"
+	"gameplay.h"
+	"graphics.h"
+	"zones.h"
+
+1743953998 source:e:\demosdl\game\zones.cpp
+	"zones.h"
+
+1744111268 e:\demosdl\game\zones.h
+	<SDL.h>
+	<vector>
+
+1744054566 e:\demosdl\game\gamecontext.h
+	"graphics.h"
+	"zones.h"
+	"gameplay.h"
+	"initiallyhand.h"
+	"hand.h"
+	"game.h"
+
+1744054497 source:e:\demosdl\game\gamecontext.cpp
+	"GameContext.h"
+
+1744129811 e:\demosdl\game\rendering.h
+	<vector>
+	<SDL.h>
+	<SDL_ttf.h>
+	<functional>
+	"graphics.h"
+	"zones.h"
+	"card.h"
+
+1744113625 source:e:\demosdl\game\button.cpp
+	"Button.h"
+
+1744113595 e:\demosdl\game\button.h
+	<SDL.h>
+
